@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    border: 2px solid #111;
+    width: 100%;
+    height: 98%;
+    background-color: #782221;
+}
+header{
+    
+    display: grid;   
+    justify-content: center;
+    align-items: center;
+
+
+}
+header .class_contenaire{
+   width: 200px;
+   margin: 0 auto;
+}
+.class_contenaire img{
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 130px;
+    border-radius: 50%;
+    filter:drop-shadow(10px 7px 10px black)
+}
+.class_contenaire img:hover{
+  cursor: zoom-out;
+  cursor:zoom-in;
+}
+.class_para h2{
+    font-size:30px;
+    text-align: center;
+    padding-top: 10px;
+    text-decoration: none;
+}
+.class_para p{
+    text-align: center;
+    padding-bottom: 50px;
+    font-size:20px;
+}
+nav{
+    border-bottom: solid 2px #111;
+    border-top: solid 2PX #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: #111;
+}
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none; 
+     margin:5px;
+}
+nav ul li  {
+    color: #fff;
+    display: inline;
+    margin: 110px;
+    border-style: none;
+}
+nav ul li a {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+}
+nav ul li:hover{
+    background-color: bisque;
+    color: blanchedalmond;
+    border: solid;
+}
+.containeur_principal{
+    border: 2px solid #111;
+    width: 45%;
+    margin-left:50%;
+    padding: 30px;
+    background-color: #fff;
+}
+.fimbu_grands{
+    padding: 14px;
+    width: 37%;
+    margin-top: -520px;
+    height: 500px;
+    margin-left: 10%;
+}
+.fimbu_grands h1{
+    color: #fff; ;
+    background-color:#dbc2a4 ;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+.langues_nb{
+    padding: 14px;
+}
+.langues_nb h2{
+    color: #fff; ;
+    background-color:#dbc2a4 ;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+.centres{
+    padding:14px;
+}
+.centres h1{
+    color: #fff; ;
+    background-color:#dbc2a4 ;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+footer{
+    margin: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.pied_des  a{
+    padding: 10px;
+    font-size: 50px;
+}
+.expertisances h1{
+    color: #fff; ;
+    background-color:#dbc2a4 ;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+.mini_box h1{
+    color: #fff; ;
+    background-color:#dbc2a4 ;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+.mini_box ol {
+    list-style:  none;
+}
